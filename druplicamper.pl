@@ -6,7 +6,7 @@ use Bot::BasicBot::Pluggable;
 
 my $bot = Bot::BasicBot::Pluggable->new(
   server => 'irc.freenode.net',
-  channels => [ '#midcamp','#alimac'],
+  channels => [ '#midcamp','#alimac', '#drupal-stl', '#drupalcamp'],
   nick => 'Druplicamper',
   username => 'Druplicamper',
   altnicks => ["Drupli_camper", "Drupli__camper"],
